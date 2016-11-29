@@ -2,11 +2,11 @@ object FizzBuzz{
   def main(args: Array[String]){
     for(i <- 1 to 100) {
       if(i % 3 == 0 && i % 5 == 0) {
-        println(i + "FizzBuzz")
+        println("FizzBuzz")
       }else if (i % 3 == 0) {
-        println(i + "Fizz")
+        println("Fizz")
       }else if (i % 5 == 0) {
-        println(i + "Buzz")
+        println("Buzz")
       }else {
         println(i)
       }
