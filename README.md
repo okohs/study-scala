@@ -1,6 +1,9 @@
 # study-scala
 Give me PR to improve my Scala skill.
 
+## purpose
+i↨ will become s↨cala programmer who write beautiful and effective code.
+
 ## study plan
 i will program...  
 - fizz buzz
