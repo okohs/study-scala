@@ -2,10 +2,10 @@
 Give me PR to improve my Scala skill.
 
 ## purpose
-i↨ will become s↨cala programmer who write beautiful and effective code.
+I will become Scala programmer who write beautiful and effective code.
 
 ## study plan
-i will program...  
+I will program...  
 - fizz buzz
 - some [mathematical puzzles](https://www.amazon.co.jp/dp/B016QEE30G/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
 - calculator
