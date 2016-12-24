@@ -1,0 +1,6 @@
+def loopFrom0To9(): Unit = {
+  var i = ???
+  do {
+    ???
+  } while(???)
+}
