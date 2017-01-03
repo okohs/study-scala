@@ -1,7 +1,23 @@
-// 10からスタート
+import scala.util.control.Breaks
 
-// 10進数で回文数となるかチェックする
-  // 8進数で回文数となるかチェックする
-    // 2進数で回文数となるかチェックする
-      // 回分数になったらその数字を表示し、処理を終了する
+var i:Int = 10
 
+while(true){
+  val b = new Breaks
+  val base:String = Integer.toString(i)
+  val reverse:String = base.reverse
+  if(base == reverse){
+    val octalBase:String = Integer.toOctalString(i)
+    val octalRebase:String = octalBase.reverse
+    if(octalBase == octalRebase){
+      val binaryBase:String = Integer.toBinaryString(i)
+      val binaryRebase:String = binaryBase.reverse
+      if(binaryBase == binaryRebase){
+        println(base)
+        b.break()
+      }
+    }
+  }else{
+    i+=1
+  }
+}
