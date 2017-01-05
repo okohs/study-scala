@@ -3,7 +3,7 @@ object Main extends App {
     isPalindrome(Integer.toString(i)) &&
       isPalindrome(Integer.toOctalString(i)) &&
       isPalindrome(Integer.toBinaryString(i))
-  }.take(1)
+  }.next
   println(answer)
 
   def isPalindrome(base: String): Boolean = {
