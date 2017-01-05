@@ -4,7 +4,7 @@ object Main extends App{
   var i:Int = 10
 
   while(true){
-    if(isPalindromes(Integer.toString(i)) && isPalindromes(Integer.toOctalString(i)) && isPalindromes(Integer.toBinaryString(i))){
+    if(isPalindrome(Integer.toString(i)) && isPalindrome(Integer.toOctalString(i)) && isPalindrome(Integer.toBinaryString(i))){
       println(i)
       val b = new Breaks
       b.break()
@@ -13,7 +13,7 @@ object Main extends App{
     }
   }
 
-  def isPalindromes(base:String): Boolean = {
+  def isPalindrome(base:String): Boolean = {
     val reverse:String = base.reverse
     base == reverse
   }
