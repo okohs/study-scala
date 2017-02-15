@@ -1,3 +1,6 @@
+/**
+ * Evalクラスが使えそう
+ */
 val START_NUMBER:Int = 1000
 val END_NUMBER:Int = 9999
 
